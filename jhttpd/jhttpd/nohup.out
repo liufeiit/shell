@@ -1,0 +1,39 @@
+jHTTPd 0.1a starting...
+Using Port 80
+Type QUIT to stop the webserver.
+Type CONFIG to get the current configuration.
+Exception in thread "Thread-0" java.lang.NullPointerException
+	at webServer.ControlThread.run(ControlThread.java:54)
+	at java.lang.Thread.run(Thread.java:662)
+Host: 127.0.0.1
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/34.0.1847.116 Chrome/34.0.1847.116 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+Cookie: phpMyAdmin=p40f48tbolp14tma20gkig4ohm0rant1; JSESSIONID=1rdq8fia9qtpm1ltbte2vktetl
+Host: 127.0.0.1
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/34.0.1847.116 Chrome/34.0.1847.116 Safari/537.36
+Referer: http://127.0.0.1/index.html
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+Cookie: phpMyAdmin=p40f48tbolp14tma20gkig4ohm0rant1; JSESSIONID=1rdq8fia9qtpm1ltbte2vktetl
+java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:332)
+	at webServer.HttpRequest.processRequest(HttpRequest.java:163)
+	at webServer.HttpRequest.run(HttpRequest.java:326)
+	at java.lang.Thread.run(Thread.java:662)
+java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:332)
+	at webServer.HttpRequest.processRequest(HttpRequest.java:163)
+	at webServer.HttpRequest.run(HttpRequest.java:326)
+	at java.lang.Thread.run(Thread.java:662)
+java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:332)
+	at webServer.HttpRequest.processRequest(HttpRequest.java:163)
+	at webServer.HttpRequest.run(HttpRequest.java:326)
+	at java.lang.Thread.run(Thread.java:662)
