@@ -1,0 +1,6 @@
+2,string,"u:ava:praise:2397542-0",103,string,8,8
+3,string,"u:ava:praise:2397542-0",103,string,8,8
+1,string,"u:ava:praise:2397542-0",103,string,8,8
+1,string,"u:ava:praise:2397542-0",103,string,8,8
+2,string,"u:ava:praise:2397542-0",103,string,8,8
+3,string,"u:ava:praise:2397542-0",103,string,8,8
